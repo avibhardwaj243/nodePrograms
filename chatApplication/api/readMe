@@ -1,0 +1,7 @@
+1) first install node modules (as we have not commited node_modules folder)
+npm install
+
+2) then run 
+npm run test
+
+Video Url : https://www.youtube.com/watch?v=I4BZQr-5mBY

@@ -44,4 +44,6 @@ io.on('connection', (socket) => {
     socket.on('disconnect', () => {
         console.log("User Disconnect");
     })
-})
+});
+
+module.exports = app;
