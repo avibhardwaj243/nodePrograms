@@ -10,7 +10,7 @@ const ProductCard = ({product}) => {
                     <img className='productCard__img' src={product.image} alt='' />
                     <h4>{product.name}</h4>
                     <div className="productCard__price">
-                        <h5>{product.price}</h5>
+                        <h5>&#8377; {product.price}</h5>
                     </div>
                     <div className='ProductCard__Rating'>
                         <Rating value= {product.rating} text={`${product.numReviews} reviews`} />
