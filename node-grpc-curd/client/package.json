@@ -1,0 +1,24 @@
+{
+  "name": "grpc-curd",
+  "version": "1.0.0",
+  "description": "Node application (curd operation) using gRPC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Avi Bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.7.13",
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "grpc": "^1.24.11",
+    "hbs": "^4.2.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

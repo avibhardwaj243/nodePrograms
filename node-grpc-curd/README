@@ -1,0 +1,7 @@
+1) goto the project folder 
+2) move inside server and client folder , Then npm i if not done already
+3) open 2 diffrent terminals
+4) In one terminal for server run below command
+npm run dev
+5) In another terminal for client run below command
+npm run dev

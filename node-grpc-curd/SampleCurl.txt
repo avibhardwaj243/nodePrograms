@@ -1,0 +1,5 @@
+//get All lead data
+curl --location 'http://localhost:5000/'
+
+//Get ID wise data
+curl --location 'http://localhost:5000/29'
